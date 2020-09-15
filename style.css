@@ -1,0 +1,86 @@
+body{
+   background-color: #ffcc80 !important;
+    display: block;
+    color: black !important;
+}
+.image {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.image:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+header{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.LeftGrid{
+    background-color:#008e8a;
+    display: inline;
+    float: left;
+    height: 1300px;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0),0 2px 10px 0 rgb(0,0,0) !important;
+}
+.RightGrid{
+    background-color:#008e8a;
+    display: inline;
+    padding: 10px;
+    float: right;
+     width: 910px; 
+    height: 70%;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0),0 2px 10px 0 rgb(0,0,0) !important;
+}
+
+.lowergrid{
+  background-color:#008e8a;
+  display: inline;
+    padding: 10px;
+    float: right;
+    width: 910px;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0),0 2px 10px 0 rgb(0,0,0) !important;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+    margin: 5px;
+}
+p:hover{
+    background-color:#4dd2ff; 
+    border-radius:10px;
+}
+.footer{
+    display: block;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    
+}
+.container{
+    margin: 0 !important;
+}
+h1 {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+} 
+i{
+  color: black;
+
+  
+}
